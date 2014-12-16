@@ -1,0 +1,16 @@
+diff -urp kicad.orig/CMakeLists.txt kicad/CMakeLists.txt
+--- kicad.orig/CMakeLists.txt	2014-12-16 19:32:37.000000000 +0100
++++ kicad/CMakeLists.txt	2014-12-16 19:33:06.000000000 +0100
+@@ -474,9 +474,9 @@ if( APPLE AND USE_OSX_DEPS_BUILDER )
+ 
+         add_dependencies( lib-dependencies libwxpython )
+         add_dependencies( lib-dependencies swig )
+-    else()
+-        include( download_wxwidgets )
+-        add_dependencies( lib-dependencies libwx )
++#    else()
++#        include( download_wxwidgets )
++#        add_dependencies( lib-dependencies libwx )
+     endif()
+ 
+     include( download_libpng )
