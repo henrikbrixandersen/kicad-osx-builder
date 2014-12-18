@@ -28,7 +28,7 @@ OSX_VERSION_MICRO=$(shell echo $(OSX_VERSION) | cut -d . -f 3)
 
 # Common directories
 DOWNLOADS=downloads
-patches=patches
+PATCHES=patches
 
 # BZR
 BZR_TARBALL=bzr-$(BZR_VERSION).tar.gz
