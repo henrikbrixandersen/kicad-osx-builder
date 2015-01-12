@@ -5,7 +5,7 @@
 # This Makefile is licenced under the GPLv2, same as KiCad itself.
 
 # KiCad version
-KICAD_VERSION=5336
+KICAD_VERSION=5363
 KICAD_BUILD_TYPE=Release
 #KICAD_BUILD_TYPE=Debug
 KICAD_BUILD_DATE:=$(shell date '+%Y-%m-%d')
